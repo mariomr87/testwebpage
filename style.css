@@ -169,6 +169,7 @@ body{
 
 .text-somos{
 	font-size:80px;
+	line-height: 10px;
 }
 
 .line-blue{
@@ -179,13 +180,17 @@ body{
 
 .texto-qs{
 	text-align: justify;
-	font-size: 25px;
+	font-size: 18px;
 	color: gray;
 
 }
 
 .negrilla{
 	font-weight: bold;
+}
+
+.cuadro span {
+	font-size: 1.2em;
 }
 
 .just-somos{
@@ -232,10 +237,10 @@ body{
 
 
 .text-app-des{
-	font-size: 24px;
+	font-size: 18px;
 	padding: 0 18% 0 25%;
 	text-align: justify;
-	
+	color: white;
 }
 
 .gris2{
@@ -255,9 +260,12 @@ body{
     bottom: 60px;
 	
 }
+.interlineas{
+	line-height:normal;
+}
 
 .icon-serv{
-	width: 75px;
+	width: 70px;
 }
 
 .cuadro img{
