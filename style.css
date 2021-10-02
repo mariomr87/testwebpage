@@ -13,6 +13,52 @@ body{
 	font-family: 'Raleway', sans-serif !important;
 }
 
+.menuing{
+	background-color: #292b2f;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c5c3c3 ;
+}
+
+.menuing-texto{
+	text-align: center;
+}
+
+.menuing-texto h1{
+	font-size: 3em;
+}
+.menuing-opc{
+	/**/
+}
+
+.menuing-opc ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.menuing-opc li{
+	float:left;
+}
+
+.menuing-opc li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.menuing-redes{
+	text-align: center;
+}
+
+
+.menuing-redes-logos{
+	width: 1.5em;
+}
+
 .logo{
 	font-family: 'Righteous', cursive;
 	color: #fff;
@@ -272,7 +318,6 @@ body{
 .icon-serv{
 	width: 86px;
 	margin-bottom: 20px;
-}
 }
 
 .cuadro img{
