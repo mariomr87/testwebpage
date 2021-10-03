@@ -13,6 +13,28 @@ body{
 	font-family: 'Raleway', sans-serif !important;
 }
 
+.lineamenu{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c5c3c3 ;
+	background-color: #292b2f;
+}
+
+.menuimg-texto{
+	font-weight: 900;
+	font-size: 2em;
+	font-family: 'Righteous', cursive;
+	color: #fff;
+}
+
+.texto-link{
+	color: white;
+}
+
+.menuing-redes-logos{
+	width: 1.5em;
+}
+
 .logo{
 	font-family: 'Righteous', cursive;
 	color: #fff;
@@ -272,7 +294,6 @@ body{
 .icon-serv{
 	width: 86px;
 	margin-bottom: 20px;
-}
 }
 
 .cuadro img{

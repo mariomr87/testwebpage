@@ -115,12 +115,12 @@
 }
 
 .slider2 {
-    padding: 2em 10em;
+    padding: 0 10em;
 }
 
 .slider2 div img{
     width: 50%;
-    /* background-color: gray; */
+    background-color: gray;
     border-inline: 1px;
     display: block;
     margin: auto;
@@ -129,6 +129,6 @@
 
 /* .slide{
  border-style: solid; 
- color: red;
+ color: aqua;
  
 } */
