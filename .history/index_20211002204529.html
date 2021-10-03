@@ -22,12 +22,36 @@
 	<body>
 
 		<!-- Menu -->
-		<div class="container-fluid flotante">
-			
-		</div>
+			<nav class="navbar row menuing sticky-top">
+				<div class="col-md-2 menuing-texto"><h1 class="logo">Ingenii</h1></div>
+				<div class="navbar-nav col-md-8 menuing-opc ml-auto">
+					<ul>
+						<li>
+							<img class="menuing-redes-logos" src="./imagenes/menu/Icon-inicio.svg" alt=""><a href="">Inicio</a>
+						</li>
+						<li>
+							<img class="menuing-redes-logos" src="./imagenes/menu/Icon-inicio.svg" alt=""><a href="#servicios4">Servicios</a>
+						</li>
+						<li>
+							<img class="menuing-redes-logos" src="./imagenes/menu/Icon-inicio.svg" alt=""><a href="#quienessomos">¿Quiénes somos?</a>
+						</li>
+						<li>
+							<img class="menuing-redes-logos" src="./imagenes/menu/Icon-inicio.svg" alt=""><a href="">Nuestro Trabajo</a>
+						</li>
+						<li>
+							<img class="menuing-redes-logos" src="./imagenes/menu/Icon-inicio.svg" alt=""><a href="">Escribenos</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-2 menuing-redes">
+					<img class="menuing-redes-logos" src="./imagenes/menu/Facebook.svg" alt="">
+					<img class="menuing-redes-logos" src="./imagenes/menu/WhatsApp.svg" alt="">
+				</div>
+			</nav>
+
 		<!-- Slider -->
 		<div class="container-fluid slider text-centro text-center">
-			<div class="row">
+			<div class="row" id="servicios4">
 				<div>
 					<h3 class="logo title-slider">Ingenii</h3>
 					<h3 class="blanco slider-text">Expertos en la nueva era</h3>
@@ -35,13 +59,11 @@
 					<img id="flecha-down" src="./imagenes/principal/flecha.svg">
 				</div>			
 			</div>
-
 		</div>
 		<!-- Quienes somos y servicios -->
-		<div class="container-fluid">
+		<div class="container-fluid " >
 			<!-- Iconos de servicios -->
-			<div class="cuadros-servi row align-items-center ">
-				
+			<div class="cuadros-servi row ">
 				<div class="azul-claro-bg cuadro col ">
 					<img src="./imagenes/principal/app.svg" class="icon-serv">
 					<h5><span class="negrilla "><strong>Aplicaciones</strong> </span><br>web a la medida</h5>
@@ -60,10 +82,10 @@
 			</div>
 
 			<!-- Texto quienes somos -->
-			<div class="row just-somos">
+			<div class="row just-somos" id="quienessomos">
 				<div class="col-md-6 centrar-somos">
 					<p class="line-blue"> </p>
-					<h1 class="text-quienes">Quiénes</h1><h2 class="text-somos">Somos</h2>
+					<h1 class="text-quienes" >Quiénes</h1><h2 class="text-somos">Somos</h2>
 				</div>
 				<div class="col-md-6">
 					<p class="texto-qs"><span class="negrilla">Ingenii</span> es un emprendimiento que nace para ayudar a miles emprendedores a <span class="negrilla">migrar al mundo digital,</span> en un momento en el cual el 
@@ -155,8 +177,8 @@
 				</div>
 				<div class="col-md-12 container">
 					<section class="customer-logos slider2">
-						<div class="slide"><img src="images/image1.png"></div>
-						<div class="slide"><img src="images/image2.png"></div>
+						<div class="slide"><img src="images/image3.png"></div>
+						<div class="slide"><img src="images/image4.png"></div>
 						<div class="slide"><img src="images/image3.png"></div>
 						<div class="slide"><img src="images/image4.png"></div>
 					</section>
@@ -218,10 +240,10 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$('.customer-logos').slick({
-					slidesToShow: 3,
+					slidesToShow: 2,
 					slidesToScroll: 1,
 					autoplay: true,
-					autoplaySpeed: 800,
+					autoplaySpeed: 500,
 					arrows: false,
 					dots: false,
 						pauseOnHover: false,
