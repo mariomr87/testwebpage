@@ -13,47 +13,23 @@ body{
 	font-family: 'Raleway', sans-serif !important;
 }
 
-.menuing{
-	background-color: #292b2f;
+.lineamenu{
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #c5c3c3 ;
+	background-color: #292b2f;
 }
 
-.menuing-texto{
-	text-align: center;
+.menuimg-texto{
+	font-weight: 900;
+	font-size: 2em;
+	font-family: 'Righteous', cursive;
+	color: #fff;
 }
 
-.menuing-texto h1{
-	font-size: 3em;
-}
-.menuing-opc{
-	/**/
-}
-
-.menuing-opc ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-
-.menuing-opc li{
-	float:left;
-}
-
-.menuing-opc li a{
-	display: inline-block;
+.texto-link{
 	color: white;
-	text-align: center;
-	text-decoration: none;
 }
-
-
-.menuing-redes{
-	text-align: center;
-}
-
 
 .menuing-redes-logos{
 	width: 1.5em;
