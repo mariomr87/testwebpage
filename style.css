@@ -22,17 +22,30 @@ body{
 
 .menuimg-texto{
 	font-weight: 900;
-	font-size: 2em;
+	font-size: 3em;
 	font-family: 'Righteous', cursive;
 	color: #fff;
 }
 
-.texto-link{
-	color: white;
+.separar{
+	padding-left: 40px;
 }
 
+.menu-texto-opc{
+	font-size: 1.5em;
+	color: white;
+
+}
 .menuing-redes-logos{
 	width: 1.5em;
+}
+
+.navbar-nav{
+	justify-content: center;
+}
+
+.nav-item{
+	padding: 10px;
 }
 
 .logo{
@@ -331,3 +344,4 @@ body{
 	padding: 0 12em 2em 12em ;
 	line-height: normal;
 }
+
