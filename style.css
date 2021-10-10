@@ -28,7 +28,7 @@ body{
 }
 
 .separar{
-	padding-left: 40px;
+	padding-right: 10px;
 }
 
 .menu-texto-opc{
@@ -42,10 +42,15 @@ body{
 
 .navbar-nav{
 	justify-content: center;
+
 }
 
 .nav-item{
-	padding: 10px;
+	padding: 24px 10px;
+}
+
+.nav-item:hover{
+	box-shadow: inset 0px -7px #3bbfc3;
 }
 
 .logo{
@@ -230,7 +235,7 @@ body{
 }
 
 .cuadro span {
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 .just-somos{
@@ -343,5 +348,13 @@ body{
 	font-size: 1.5em;
 	padding: 0 12em 2em 12em ;
 	line-height: normal;
+}
+
+@media screen and (max-width:950px) {
+	.nav-item{
+		background: red;
+
+		
+	}
 }
 
