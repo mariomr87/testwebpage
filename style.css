@@ -28,7 +28,7 @@ body{
 }
 
 .separar{
-	padding-left: 40px;
+	padding-right: 10px;
 }
 
 .menu-texto-opc{
@@ -42,10 +42,15 @@ body{
 
 .navbar-nav{
 	justify-content: center;
+
 }
 
 .nav-item{
-	padding: 10px;
+	padding: 24px 10px;
+}
+
+.nav-item:hover{
+	box-shadow: inset 0px -7px #3bbfc3;
 }
 
 .logo{
@@ -230,7 +235,7 @@ body{
 }
 
 .cuadro span {
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 .just-somos{
@@ -345,3 +350,28 @@ body{
 	line-height: normal;
 }
 
+@media screen and (max-width:1100px) {
+	.cuadros-servi h5{
+		font-size: 1rem;
+	}
+
+	.text-quienes{
+		font-size: 80px;
+	}
+
+}
+
+@media screen and (max-width:810px) {
+	.cuadros-servi{
+		position: initial;
+		padding-top: 10px;
+		flex-direction: column;
+	}
+
+	.cuadro{
+		margin-bottom: 15px;
+	}
+
+
+
+}
