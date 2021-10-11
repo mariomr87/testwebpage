@@ -350,11 +350,28 @@ body{
 	line-height: normal;
 }
 
-@media screen and (max-width:950px) {
-	.nav-item{
-		background: red;
-
-		
+@media screen and (max-width:1100px) {
+	.cuadros-servi h5{
+		font-size: 1rem;
 	}
+
+	.text-quienes{
+		font-size: 80px;
+	}
+
 }
 
+@media screen and (max-width:810px) {
+	.cuadros-servi{
+		position: initial;
+		padding-top: 10px;
+		flex-direction: column;
+	}
+
+	.cuadro{
+		margin-bottom: 15px;
+	}
+
+
+
+}
