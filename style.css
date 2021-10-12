@@ -372,6 +372,24 @@ body{
 		margin-bottom: 15px;
 	}
 
+	.just-somos{
+		flex-direction:column;
+		color: green;
+	}
 
+	.just-somos .col-md-6{
+		width: 100%;
+	}
 
+	.line-blue{
+		display: none;
+	}
+
+	.centrar-somos{
+		padding-bottom: 35px;
+	}
+
+	.servi-col{
+		flex-direction: column;
+	}
 }
