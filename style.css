@@ -374,7 +374,8 @@ body{
 
 	.just-somos{
 		flex-direction:column;
-		color: green;
+		color: yellow;
+		padding: 0;
 	}
 
 	.just-somos .col-md-6{
@@ -392,4 +393,46 @@ body{
 	.servi-col{
 		flex-direction: column;
 	}
+
+	.proyectos-txt{
+		padding: 0;
+	}
+
+	.servi-col div{
+		width: 100%;
+	}
+
+	.centra-app{
+		margin: 0;
+	}
+
+	.interlineas{
+		justify-content: center;
+	}
+
+	.text-app-des{
+		text-align: center;
+	}
+
+
+}
+
+@media screen and (max-width:450px) {
+	.just-somos{
+		padding: 0;
+		
+	}
+
+	.proyectos-txt{
+		padding: 0;
+	}
+
+	.servi-col div{
+		width: 100%;
+	}
+
+	.centra-app{
+		margin: 0;
+	}
+
 }
