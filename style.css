@@ -16,7 +16,7 @@ body{
 .lineamenu{
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #c5c3c3 ;
+	/* border-bottom-color: #c5c3c3 ; */
 	background-color: #292b2f;
 }
 
@@ -32,7 +32,7 @@ body{
 }
 
 .menu-texto-opc{
-	font-size: 1.5em;
+	font-size: 1.2em;
 	color: white;
 
 }
@@ -177,12 +177,14 @@ body{
 }
 
 .contacto-title{
-	font-size: 75px;
+	font-size: 65px;
 	font-weight: 900;
 }
 
 .contacto-desc{
-	font-size: 22px;
+	text-align:left;
+	font-size: 23px;
+	line-height: 22px;
 }
 
 .slider{
@@ -241,7 +243,7 @@ body{
 .just-somos{
 	padding-left: 100px;
 	padding-right: 100px;
-	padding-top: 50px;
+	padding-top: 0;
 	padding-bottom: 50px;
 	line-height: initial;
 }
@@ -346,7 +348,7 @@ body{
 .proyectos-txt{
 	color: gray;
 	font-size: 1.5em;
-	padding: 0 12em 2em 12em ;
+	padding: 0 290px;
 	line-height: normal;
 }
 
@@ -359,9 +361,37 @@ body{
 		font-size: 80px;
 	}
 
+	.text-app-des{
+		font-size: 15px;
+	}
+
+	.text-app-icon2 {
+		font-size: 20px;
+	}
+
+	.text-app-icon {
+		font-size: 25px;
+	}
+
+	.icon-serv {
+		width: 65px;
+	
+	}
+
+	.centra-app {
+		margin: 5% 9% 0 15%;
+	}
+
+	.contacto-title{
+		font-size: 60px;
+	}
+
+	.proyectos-txt{
+		padding: 0 12px;
+	}
 }
 
-@media screen and (max-width:810px) {
+@media screen and (max-width:840px) {
 	.cuadros-servi{
 		position: initial;
 		padding-top: 10px;
@@ -473,7 +503,6 @@ body{
 	.two{
 		order: 1;
 	}
-
 
 	.three{
 		order: 3;
