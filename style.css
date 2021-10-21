@@ -243,8 +243,8 @@ body{
 .just-somos{
 	padding-left: 100px;
 	padding-right: 100px;
-	padding-top: 0;
-	padding-bottom: 50px;
+	padding-top: 25px;
+	padding-bottom: 75px;
 	line-height: initial;
 }
 
@@ -505,6 +505,19 @@ body{
 	.contacto-form {
 		margin: 10px 20% 50px 10%;
 	}
+
+	.contacto-title{
+		text-align: center;
+	}
+
+	.contacto-desc {
+		text-align: justify;
+	}
+
+	.contacto-form {
+		margin: 10px 20px 30px 20px;
+	}
+
 }
 
 @media screen and (max-width:450px) {
