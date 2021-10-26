@@ -8,16 +8,24 @@ fecha: 2021-07-18;
     src: url('font/Righteous-Regular.ttf');
 }
 
-
 body{
 	font-family: 'Raleway', sans-serif !important;
 }
 
+#menuslide.abajo{
+	opacity: 80%;
+}
+
+nav{
+	transition: 0.7s;
+}
+
 .lineamenu{
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
+	/* border-bottom-width: 1px; */
+	/* border-bottom-style: solid; */
 	/* border-bottom-color: #c5c3c3 ; */
 	background-color: #292b2f;
+	
 }
 
 .menuimg-texto{
@@ -25,6 +33,7 @@ body{
 	font-size: 3em;
 	font-family: 'Righteous', cursive;
 	color: #fff;
+	transition: 0.7s;
 }
 
 .separar{
@@ -34,6 +43,7 @@ body{
 .menu-texto-opc{
 	font-size: 1.2em;
 	color: white;
+	transition: 1.5s;
 
 }
 .menuing-redes-logos{
@@ -47,6 +57,7 @@ body{
 
 .nav-item{
 	padding: 24px 10px;
+	
 }
 
 .nav-item:hover{
@@ -355,6 +366,8 @@ body{
 .texto-footer{
 	padding: 0px 22px;
 }
+
+
 
 @media screen and (max-width:1050px) {
 	.texto-footer{
